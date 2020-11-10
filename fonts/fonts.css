@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'Roboto', sans-serif;
+  src: url('Roboto-Bold.eot');
+  src: url('Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+       url('Roboto-Bold.ttf') format('truetype'),
+       url('Roboto-Bold.woff') format('woff'),
+       url('Roboto-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto', sans-serif;
+  src: url('Roboto-Light.eot');
+  src: url('Roboto-Light.eot?#iefix') format('embedded-opentype'),
+       url('Roboto-Light.ttf') format('truetype'),
+       url('Roboto-Light.woff') format('woff'),
+       url('Roboto-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto', sans-serif;
+  src: url('Roboto-Regular.eot');
+  src: url('Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+       url('Roboto-Regular.ttf') format('truetype'),
+       url('Roboto-Regular.woff') format('woff'),
+       url('Roboto-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Open Sans', sans-serif;
+  src: local('Open Sans'),
+       url('OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+       url('OpenSans-Regular.ttf') format('truetype'),
+       url('OpenSans-Regular.woff') format('woff'),
+       url('OpenSans-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'HelveticaNeue', sans-serif;
+  src: local('HelveticaNeue'),
+       local('Arial');
+}
+@font-face {
+  font-family: 'Helvetica', sans-serif;
+  src: local('Helvetica'),
+       local('Arial');
+}
