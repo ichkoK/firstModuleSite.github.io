@@ -3,6 +3,7 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>Module</title>
+    <link rel="icon" type="image/png" href="img/favicon.png"/>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
@@ -23,16 +24,16 @@
 			<a href="#" class="logo"><img src="img/logo.png" alt="logo"></a>
 			<nav class="nav__menu">
 				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">About Us</a></li>
-					<li><a href="#">Our Approch</a></li>
-					<li><a href="#">Our Work</a></li>
-					<li><a href="#">Free Consultation</a></li>
+					<li><a href="#first">Home</a></li>
+					<li><a href="#about">About Us</a></li>
+					<li><a href="#app">Our Approch</a></li>
+					<li><a href="#work">Our Work</a></li>
+					<li><a href="#form">Free Consultation</a></li>
 				</ul>
 			</nav>
 		</div>
 	</header>
-	<section class="banner">
+	<section id="first" class="banner">
 		<div class="slider">
 			<img src="img/top-section.jpg" alt="img1">
 			<img src="img/top-section.jpg" alt="img2">
@@ -46,7 +47,7 @@
 			<a href="#" class="consul_btn">free consultation</a>
 		</div>
 	</section>
-	<section class="about container">
+	<section id="about" class="about container">
 		<div class="about__title">
 			<h2>About Us</h2>
 			<h4>We are added our major Services</h4>
@@ -69,7 +70,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="approch">
+	<section id="app" class="approch">
 		<div class="container">
 			<div class="about__title">
 				<h2>Our Approch</h2>
@@ -94,7 +95,7 @@
 				</div>
 				<div class="approch__item">
 					<img src="img/photo-3.jpg" alt="table">
-					<div class="number"><span>3</span><span>step</span></div>
+					<div class="number n3"><span>3</span><span>step</span></div>
 					<div class="text_block">
 						<h6>Step 3 : Heading Here</h6>
 						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
@@ -102,7 +103,7 @@
 				</div>
 				<div class="approch__item">
 					<img src="img/photo-4.jpg" alt="work">
-					<div class="number"><span>4</span><span>step</span></div>
+					<div class="number n4"><span>4</span><span>step</span></div>
 					<div class="text_block">
 						<h6>Step 4 : Heading Here</h6>
 						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
@@ -111,7 +112,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="work">
+	<section id="work" class="work">
 		<div class="container">
 			<div class="work_title">
 				<h2>Our Work</h2>
@@ -129,18 +130,50 @@
 			</div>
 		</div>
 	</section>
-	<section class="form">
+	<section id="form" class="form">
 		<div class="container">
 			<div class="form_title">
 				<h2>Get Your Free Facebook Analysis Now</h2>
 				<h4>Enter your details below</h4>
 			</div>
+			<div class="form_block">
+				<a class="exs_btn" href="#">×</a>
+				<p>Sit down with our experts to receive a free customized marketing plan for your business + Learn How To Use Google and Facebook to get 5000% ROI or more</p>
+				<form>
+					<input type="text" placeholder="Your Name"></input>
+					<input type="tel" placeholder="Contact Number"></input>
+					<input type="text" placeholder="Company Name"></input>
+					<input type="submit" value="Submit now"></input>
+				</form>
+			</div>
 		</div>
 	</section>
+	<footer>
+	<section class="touch">
+		<div class="container">
+			<span>Get in touch</span>
+			<div class="soc_block">
+				<a href="#" class="soc_item"><i class="icon-facebook-app-symbol-a"></i></a>
+				<a href="#" class="soc_item"><i class="icon-twitter"></i></a>
+				<a href="#" class="soc_item"><i class="icon-google-plus-logo"></i></a>
+				<a href="#" class="soc_item"><i class="icon-linkedin"></i></a>
+			</div>
+			<p>Subscribe to our newsletter to stay update with what is new</p>
+			<form class="last_form">
+				<input type="email" placeholder="Email Address"></input>
+				<input type="submit" value="Subscribe"></input>
+			</form>
+		</div>
+	</section>
+	<section class="cop">
+		<div class="container"><span>Cssauthor.com © 2014 All Rights Reserved</span></div>
+	</section>
+	</footer>
 
-<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="js/jq.js"></script>
 <script type="text/javascript" src="slick/slick.min.js"></script>
 <script type="text/javascript" src="js/slider.js"></script>
+<script type="text/javascript" src="js/scroll.js">
+</script>
 </body>
 </html>
