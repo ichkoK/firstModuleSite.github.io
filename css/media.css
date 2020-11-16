@@ -61,8 +61,17 @@
   }
 }
 @media (max-width: 900px) {
-  .nav__menu {
+  .main__ul__menu {
     display: none;
+  }
+  .menu__btn {
+    display: flex;
+  }
+  .header_block {
+    min-height: 80px;
+  }
+  .logo img {
+    max-width: 200px;
   }
 }
 @media (max-width: 850px) {

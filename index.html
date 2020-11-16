@@ -24,19 +24,32 @@
         </div>
       </div>
     </div>
-    <div class="header_block container">
+   </header>
+   <div class="header_block container">
       <a href="#" class="logo"><img src="img/logo.png" alt="logo"></a>
       <nav class="nav__menu">
-        <ul>
+  		<ul class="main__ul__menu">
           <li><a href="#first">Home</a></li>
           <li><a href="#about">About Us</a></li>
           <li><a href="#app">Our Approch</a></li>
           <li><a href="#work">Our Work</a></li>
           <li><a href="#form">Free Consultation</a></li>
         </ul>
+        <input id="menu__toggle" type="checkbox" />
+  		<label class="menu__btn" for="menu__toggle">
+    		<span></span>
+  		</label>
+  		<div class="menu__box">
+  		<ul>
+		    <li><a class="menu__item" href="#first">Home</a></li>
+		    <li><a class="menu__item" href="#about">About Us</a></li>
+		    <li><a class="menu__item" href="#app">Our Approch</a></li>
+		    <li><a class="menu__item" href="#work">Our Work</a></li>
+		    <li><a class="menu__item" href="#form">Free Consultation</a></li>
+	  	</ul>
+	  	</div>
       </nav>
     </div>
-  </header>
   <section id="first" class="banner">
     <div class="slider">
       <img src="img/top-section.jpg" alt="img1">
@@ -185,8 +198,8 @@
   <script src="js/jq.js"></script>
   <script src="slick/slick.min.js"></script>
   <script src="js/slider.js"></script>
-  <script src="js/scroll.js">
-  </script>
+  <script src="js/scroll.js"></script>
+  <script src="js/brg-close.js"></script>
 </body>
 
 </html>
