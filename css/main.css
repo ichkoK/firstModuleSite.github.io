@@ -146,9 +146,6 @@ Header*/
   justify-content: space-between;
   align-items: center;
   min-height: 130px;
-  position: sticky;
-  top: 0;
-  z-index: 99999;
   background-color: #fff;
 }
 .main__ul__menu {
@@ -230,7 +227,7 @@ Header*/
     visibility: hidden;
     top: 0;
     right: -100%;
-	width: 100%;
+	   width: 300px;
     height: 100%;
     margin: 0;
     list-style: none;
@@ -273,9 +270,8 @@ Header*/
 }
 #menu__toggle:checked ~ .menu__btn {
     position: fixed;
-    right: 0;
-    left: 0;
-    top: 185px;
+    right: 135px;
+    top: 200px;
     margin: auto;
 }
 #menu__toggle:checked ~ .menu__box {
@@ -287,8 +283,8 @@ Header*/
   right: 0;
 }
 .menu__box ul {
-	border-radius: 4px;
-	border: 3px solid #fff;
+	border-top: 3px solid #fff;
+  border-bottom: 3px solid #fff;
 	min-width: 300px;
 	min-height: 300px;
 	margin: auto;
